@@ -1,7 +1,7 @@
 # Internshala TA assignment solution
 
 ### Problem statement 1 : 
-#### Write a MongoDB query to find all documents in a collection where a particular field has avalue greater than a certain value.
+#### Write a MongoDB query to find all documents in a collection where a particular field has a value greater than a certain value.
 
 ### Solution : 
 - Create database of student 
@@ -53,3 +53,29 @@ db.student_detail.find({age: {$gt: 23} })
   }
 ]
 ```
+
+### Problem statement 2 : 
+#### Write a simple express.js route that takes in a parameter from the url and return it as a response.
+
+### Solution :
+#### You can move to folder solution_2 and follow below steps to see the solution.
+
+- move to solution_2 folder using command :
+```
+cd solution_2
+```
+- install all dependencies by running this command :
+```
+npm i 
+```
+- run server with following command :
+```
+npm run dev
+```
+- open browser at http://localhost:5001/api/greeting/:value if parameter is directly passsed in url. example image is below :
+
+![Output Image](assets/paramImage.png)
+
+- open browser at http://localhost:5001/api/student?id=somevalue&name=somevalue if you want to use query way. through this method you will get information like below image : 
+
+![Output Image](assets/queryImage.png)
