@@ -55,12 +55,12 @@ db.student_detail.find({age: {$gt: 23} })
 ```
 
 ### Problem statement 2 : 
-#### Write a simple express.js route that takes in a parameter from the url and return it as a response.
+#### Write a simple express.js route that takes in a parameter from the URL and returns it as a response.
 
 ### Solution :
-#### You can move to folder solution_2 and follow below steps to see the solution.
+#### You can move to folder solution_2 and follow the below steps to see the solution.
 
-- move to solution_2 folder using command :
+- move to the solution_2 folder using the command :
 ```
 cd solution_2
 ```
@@ -68,15 +68,15 @@ cd solution_2
 ```
 npm i 
 ```
-- run server with following command :
+- run the server with the following command :
 ```
 npm run dev
 ```
-- open browser at http://localhost:5001/api/greeting/:value if parameter is directly passsed in url. example image is below :
+- open the browser at http://localhost:5001/api/greeting/:value if the parameter is directly passed in the URL. an example image is below :
 
 ![Output Image](./assets/paramImage.png)
 
-- open browser at http://localhost:5001/api/student?id=somevalue&name=somevalue if you want to use query way. through this method you will get information like below image : 
+- open the browser at http://localhost:5001/api/student?id=somevalue&name=somevalue if you want to use query way. through this method, you will get information like below image : 
 
 ![Output Image](./assets/queryImage.png)
 
@@ -85,10 +85,10 @@ npm run dev
 #### Write a react component that renders a list of items fetched from an API.
 
 ### Solution :
-#### You can move to folder solution_3_listRender and follow below steps to see the solution.
-#### I have used https://jsonplaceholder.typicode.com/posts Api and axios to fetch data.
+#### You can move to folder solution_3_listRender and follow the below steps to see the solution.
+#### I have used https://jsonplaceholder.typicode.com/posts Api and Axios to fetch data.
 
-- move to solution_3_listRender folder using command :
+- move to solution_3_listRender folder using the command :
 ```
 cd solution_3_listRender
 ```
@@ -96,13 +96,13 @@ cd solution_3_listRender
 ```
 npm i 
 ```
-- To see code of listRender component, you can move to components folder and see that.
-- run server with following command :
+- To see the code of listRender component, you can move to the components folder and see that.
+- run the server with the following command :
 ```
 npm run dev
 ```
 
 - follow the link which you will get in terminal to see the output.
-- You can see Output Image below as well : 
+- You can see the Output Image below as well OR you can visit to assets folder as well: 
 
 ![Output Image](./assets/listImage.png)
