@@ -79,3 +79,28 @@ npm run dev
 - open browser at http://localhost:5001/api/student?id=somevalue&name=somevalue if you want to use query way. through this method you will get information like below image : 
 
 ![Output Image](assets/queryImage.png)
+
+
+### Problem statement 3 : 
+#### Write a react component that renders a list of items fetched from an API.
+
+### Solution :
+#### You can move to folder solution_3_listRender and follow below steps to see the solution.
+#### I have used https://jsonplaceholder.typicode.com/posts Api and axios to fetch data.
+
+- move to solution_3_listRender folder using command :
+```
+cd solution_3_listRender
+```
+- install all dependencies by running this command :
+```
+npm i 
+```
+- run server with following command :
+```
+npm run dev
+```
+- follow the link which you will get in terminal to see the output.
+- You can see Output Image below as well : 
+
+![Output Image](assets/listImage.png)
