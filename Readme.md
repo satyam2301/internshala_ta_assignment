@@ -96,10 +96,12 @@ cd solution_3_listRender
 ```
 npm i 
 ```
+- To see code of listRender component, you can move to components folder and see that.
 - run server with following command :
 ```
 npm run dev
 ```
+
 - follow the link which you will get in terminal to see the output.
 - You can see Output Image below as well : 
 
