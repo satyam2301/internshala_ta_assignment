@@ -10,7 +10,7 @@ const ListRender = () => {
       try {
         const response = await axios.get(
           'https://jsonplaceholder.typicode.com/posts'
-        ); // Replace with your
+        );
         setPosts(response.data);
         setLoading(false);
       } catch (error) {
