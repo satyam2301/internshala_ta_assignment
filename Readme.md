@@ -74,11 +74,11 @@ npm run dev
 ```
 - open browser at http://localhost:5001/api/greeting/:value if parameter is directly passsed in url. example image is below :
 
-![Output Image](assets/paramImage.png)
+![Output Image](./assets/paramImage.png)
 
 - open browser at http://localhost:5001/api/student?id=somevalue&name=somevalue if you want to use query way. through this method you will get information like below image : 
 
-![Output Image](assets/queryImage.png)
+![Output Image](./assets/queryImage.png)
 
 
 ### Problem statement 3 : 
@@ -105,4 +105,4 @@ npm run dev
 - follow the link which you will get in terminal to see the output.
 - You can see Output Image below as well : 
 
-![Output Image](assets/listImage.png)
+![Output Image](./assets/listImage.png)
